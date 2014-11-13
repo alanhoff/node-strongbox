@@ -1,0 +1,55 @@
+{
+  "name": "strongbox",
+  "version": "1.0.0",
+  "description": "Object encrypter and decrypter.",
+  "main": "./lib/strongbox.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanhoff/node-strongbox"
+  },
+  "keywords": [
+    "binary",
+    "object",
+    "encode",
+    "decode",
+    "encrypt",
+    "decrypt",
+    "procol buffers",
+    "protobuf"
+  ],
+  "author": "Alan Hoffmeister <alanhoffmeister@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanhoff/node-strongbox/issues"
+  },
+  "homepage": "https://github.com/alanhoff/node-strongbox",
+  "dependencies": {
+    "bolty": "^2.0.0",
+    "sjcl-all": "^1.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^4.2.3",
+    "chai": "^1.9.2",
+    "coveralls": "^2.11.2",
+    "grunt": "^0.4.5",
+    "grunt-banner": "^0.2.3",
+    "grunt-browserify": "^3.1.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-jsdoc-to-markdown": "^0.4.2",
+    "grunt-run": "^0.2.4",
+    "istanbul": "^0.3.2",
+    "jshint": "^2.5.6",
+    "karma": "^0.12.24",
+    "karma-browserify": "^0.2.1",
+    "karma-mocha": "^0.1.9",
+    "karma-mocha-reporter": "^0.3.1",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^1.21.4"
+  }
+}
